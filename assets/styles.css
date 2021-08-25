@@ -1,0 +1,652 @@
+* {
+  font-family: Avenir-Next, Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+}
+.edystlogo {
+  float: left;
+  position: relative;
+  padding: 10px;
+}
+.edystlogoimg {
+  height: 30px;
+  width: auto;
+}
+.flagimg {
+  height: 18px;
+  width: auto;
+  position: absolute;
+}
+
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline;
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+}
+.nav-link {
+  color: #858585;
+}
+.colorbtn {
+  padding: 5px 40px 5px 40px;
+  background-color: rgb(230, 121, 59);
+  color: white;
+}
+
+.nav-link {
+  color: #858585;
+}
+.colorbtn {
+  padding: 5px 40px 5px 40px;
+  background-color: rgb(230, 121, 59);
+  color: white;
+}
+.dropdown {
+  border: none;
+}
+@media (max-width: 1090px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.herosection {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../assets/images/heroimg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  padding-left: 2em;
+  padding-top: 30px;
+}
+.btn-grp {
+  display: block;
+  margin: 10px auto 10px auto;
+  padding-top: 40px;
+}
+.heroh1 {
+  color: white;
+  font-family: Avenir-Next, Roboto, sans-serif;
+  font-size: 90px;
+  margin-top: 70px;
+}
+.heroh3 {
+  color: white;
+  font-family: Avenir-Next, Roboto, sans-serif;
+  font-size: 33px;
+  margin: 0;
+}
+.applyhere {
+  color: white;
+  font-size: 16px;
+  height: 3em;
+  width: 12em;
+  background-color: #4992ca;
+  border: none;
+  position: relative;
+  margin: 10px auto 10px auto;
+}
+.register {
+  color: white;
+  font-size: 16px;
+  background-color: transparent;
+  height: 3em;
+  width: 12em;
+  border: 1px solid white;
+  position: relative;
+  margin: 10px auto 10px auto;
+}
+.learn {
+  height: 3em;
+  width: 21rem;
+  border: 1px solid white;
+  border-radius: 15px;
+  background: white;
+  margin-bottom: 80px;
+  margin: 10px auto 10px auto;
+}
+@media (max-width: 728px) {
+  .herosection {
+    height: fit-content;
+    width: fit-content;
+  }
+}
+.pocket {
+  background-color: #4992ca;
+  color: white;
+}
+
+.pocketh2 {
+  font-size: 45px;
+  text-align: center;
+  padding: 10px;
+}
+.pocketpara1 {
+  text-align: center;
+  word-wrap: normal;
+}
+.pocketpara2 {
+  text-align: center;
+  padding: 15px;
+}
+.pocket-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.row-item > h4 {
+  font-size: 30px;
+  padding: 40px;
+}
+.pocket-container > .row-item {
+  flex: 1 1 30%;
+}
+.row-item {
+  padding: 30px 0 80px 0;
+  text-align: center;
+}
+.stat {
+  padding-top: 2rem;
+}
+.stat-container {
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: normal;
+}
+.stat-container > .stat-row {
+  flex: 1 1 30%;
+  padding: 50px;
+}
+
+.stat > h2 {
+  font-size: 45px;
+  align-items: center;
+  text-align: center;
+}
+.stat-row > h4 {
+  font-size: 30px;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.stat-para {
+  padding: 1rem 0 1rem 0;
+}
+.stat-para {
+  justify-content: center;
+  text-align: center;
+}
+.stat-img {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 530px) {
+  .stat-row {
+    width: 50%;
+  }
+  .stat-img {
+    width: 100%;
+  }
+}
+.poke-revealed {
+  padding-top: 50px;
+  font-weight: 100;
+}
+.pokeh3 {
+  font-size: 45px;
+  text-align: center;
+}
+.wrapper {
+  text-align: center;
+  align-items: center;
+  display: grid;
+  margin: auto 40px auto 40px;
+  grid-template-columns: 1fr 1fr 3fr;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.greyninja {
+  width: 20em;
+  height: auto;
+}
+.pokemon-logo {
+  width: 18em;
+  height: auto;
+}
+.mimikyu {
+  width: 20em;
+  height: auto;
+}
+.pokename {
+  font-size: 30px;
+  font-weight: 100;
+}
+.pokemontype {
+  font-size: 18px;
+}
+@media (max-width: 530px) {
+  .pok-img {
+    width: 75%;
+    display: grid;
+    text-align: center;
+  }
+  .pokename {
+    width: 75%;
+  }
+  .pokemontype {
+    width: 75%;
+    padding: 10px;
+  }
+  .poke-description {
+    width: 75%;
+  }
+}
+.qa {
+  background-color: #4992ca;
+  padding: 3rem;
+  color: white;
+}
+.qa > h2 {
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.line1 {
+  padding-bottom: 1rem;
+}
+.qa > ol ul {
+  padding: 12px;
+}
+.qa > ol > ul > li {
+  margin: auto 50px auto 50px;
+  padding: 4px;
+}
+.battles {
+  margin: 2em auto 2em auto;
+}
+.battle-container {
+  display: flex;
+  margin: 20px 65px auto 65px;
+  /* margin: auto 70px auto 70px; */
+}
+.leftdiv {
+  flex: 1;
+  width: 25%;
+}
+.rightdiv {
+  flex: 2;
+  padding-left: 20px;
+}
+.battles > h2 {
+  font-size: 45px;
+  text-align: center;
+}
+.battles > h3 {
+  text-align: center;
+  margin: 20px auto 10px auto;
+}
+table tr td {
+  border: 1px solid #8a8a8a;
+  color: #8a8a8a;
+  padding: 15px;
+}
+th {
+  border: 1px solid #8a8a8a;
+  padding: 15px;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  height: 10rem;
+}
+.battles-para {
+  color: #8a8a8a;
+}
+.book-tickets {
+  text-align: center;
+  color: #4992ca;
+}
+.btn-ticket {
+  text-align: center;
+}
+.buy-now {
+  background-color: #4992ca;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  height: 30px;
+  width: 120px;
+}
+.knowmore {
+  background-color: #424242;
+  color: white;
+  text-align: center;
+  padding: 20px 0 40px 0;
+}
+.knowmore > h2 {
+  font-size: 45px;
+  padding: 10px;
+}
+.click-here {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  width: 200px;
+}
+.cardh2 {
+  color: #8a8a8a;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+}
+.card1 {
+  border-top: 20px solid #4992ca;
+  max-width: 220px;
+  height: auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.head {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.card-greyninja {
+  padding-top: 10px;
+  color: #8a8a8a;
+}
+.ability {
+  padding-bottom: 10px;
+}
+.card1-container {
+  padding: 20px;
+}
+.poke-trainers {
+  background-color: #4992ca;
+  color: white;
+  margin-top: 20px;
+}
+.traner-name {
+  font-size: 30px;
+}
+.ash {
+  height: 11em;
+  width: auto;
+}
+.poke-trainers > h3 {
+  padding-bottom: 30px;
+}
+.trainer-descrip {
+  padding: 10px;
+}
+.poke-trainers {
+  padding-bottom: 20px;
+}
+.lance {
+  height: 11em;
+  width: auto;
+}
+.trainer-wrapper {
+  text-align: center;
+  display: grid;
+  margin: auto 20px auto 40px;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-column-gap: 0px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.cynthia {
+  height: 11em;
+  width: auto;
+}
+.lorem {
+  height: 11em;
+  width: auto;
+}
+.trainerd {
+  text-align: left;
+  align-self: left;
+}
+.gen-cards {
+  margin: 20px auto 20px auto;
+}
+.gen-cards > h2 {
+  color: #8a8a8a;
+  font-size: 45px;
+  text-align: center;
+}
+.gencard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.gen-card {
+  border-top: 20px solid #4992ca;
+  max-width: 350px;
+  height: 400px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 10px 10px auto 10px;
+}
+@media (max-width: 530px) {
+  .c4 {
+    height: 500px;
+  }
+}
+.gen-head {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.card-sub-heading {
+  font-weight: 200;
+  height: 45px;
+  color: #3c3333;
+  text-align: left;
+  line-height: 4.5;
+}
+.gen-head > h3 {
+  padding-top: 10px;
+}
+.gencard-body {
+  overflow: auto;
+}
+.gencard-body > p {
+  margin: 12px;
+  word-wrap: normal;
+  overflow: auto;
+}
+.subscribe {
+  padding: 30px 0 20px 0;
+  height: 8rem;
+  background-color: #424242;
+  color: white;
+  text-align: center;
+}
+.sub-email {
+  padding: 20px;
+}
+.email-input {
+  height: 2rem;
+  width: 200px;
+}
+.submit-btn {
+  border: 2px solid white;
+  background-color: #0000;
+  color: white;
+  padding: 10px;
+  width: 200px;
+}
+@media (max-width: 530px) {
+  .subscribe {
+    height: 12rem;
+  }
+  .email-input {
+    margin-bottom: 15px;
+  }
+}
+.poke-games > h3 {
+  font-size: 45px;
+  color: #8a8a8a;
+  text-align: center;
+}
+.game1 {
+  float: left;
+  height: 20rem;
+}
+.game2 {
+  float: left;
+  height: 20rem;
+  margin-left: 20px;
+}
+.game3 {
+  height: 20rem;
+  float: right;
+}
+.games-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+}
+
+@media (max-width: 600px) {
+  .games-container {
+    flex-wrap: wrap;
+  }
+}
+.games-btn {
+  border: none;
+  background-color: #4992ca;
+  padding: 1em;
+  color: white;
+  width: 15em;
+}
+.poke-games > p {
+  text-align: center;
+}
+.designers {
+  background-color: #4992ca;
+  color: white;
+  margin-top: 20px;
+}
+.designer-img {
+  height: 12rem;
+  width: auto;
+  border-radius: 50%;
+}
+.designer-name {
+  font-weight: 100;
+  font-size: 30px;
+}
+.des {
+  margin-bottom: 5px;
+}
+.logos > h3 {
+  font-size: 45px;
+  color: #8a8a8a;
+  text-align: center;
+}
+.logos {
+  margin: 20px auto 20px auto;
+}
+.logos > p {
+  text-align: center;
+  margin-top: 10px;
+}
+.pok-logo {
+  width: 15em;
+}
+.logo-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.logo-container ul li {
+  list-style: none;
+  flex: 0 0 33.33333%;
+}
+.knowmore2 {
+  background-color: #4992ca;
+  color: white;
+  text-align: center;
+  padding: 20px 0 40px 0;
+}
+
+.knowmore2 > h2 {
+  font-size: 45px;
+  padding: 10px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 10px 40px 10px;
+  text-align: center;
+  background-color: black;
+}
+footer {
+  text-align: center;
+}
+.footer > div {
+  padding-right: 7rem;
+  text-align: center;
+  padding-left: 5rem;
+}
+.footer > div ul li {
+  list-style: none;
+  padding: 5px;
+}
+.list-header {
+  color: rgb(78, 78, 78);
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+}
+.footer > div ul li a {
+  color: white;
+}
+.coffee {
+  color: white;
+}
+
+.coffeep {
+  margin-top: 10px;
+}
+.abcd {
+  color: rgb(78, 78, 78);
+  padding: 10px auto 10px auto;
+  margin-top: 10px;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-twitter {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+.social .fab {
+  padding: 10px;
+}
+@media (max-width: 530px) {
+  .footer {
+    text-align: center;
+  }
+}
